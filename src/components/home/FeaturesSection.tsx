@@ -1,53 +1,50 @@
-
 import { useState } from 'react';
 import { 
-  BarChart3, 
-  TrendingUp, 
-  Database, 
-  LineChart, 
-  Eye, 
-  Shield,
-  Zap,
-  Users
+  GraduationCap, 
+  BookOpen, 
+  Video, 
+  Presentation,
+  Book,
+  Webinar
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
 const features = [
   {
-    title: 'Real-time Analytics',
-    description: 'Monitor your data with real-time dashboards and alerts to make timely decisions.',
-    icon: TrendingUp,
+    title: 'Expert-Led Training',
+    description: 'Learn from industry professionals with years of experience in data analytics and cloud technologies.',
+    icon: GraduationCap,
     color: 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
   },
   {
-    title: 'Predictive Insights',
-    description: 'Leverage AI and machine learning to forecast trends and anticipate market changes.',
-    icon: LineChart,
+    title: 'Certification Prep',
+    description: 'Comprehensive study materials and practice tests designed for AWS, Azure, and data analytics certifications.',
+    icon: Book,
     color: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400'
   },
   {
-    title: 'Data Integration',
-    description: 'Connect multiple data sources into a unified platform for comprehensive analysis.',
-    icon: Database,
+    title: 'Live Workshops',
+    description: 'Interactive sessions with hands-on exercises to reinforce your learning and build practical skills.',
+    icon: Presentation,
     color: 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
   },
   {
-    title: 'Visual Storytelling',
-    description: 'Transform complex data into clear visual narratives that drive understanding.',
-    icon: Eye,
+    title: 'On-Demand Content',
+    description: 'Access recorded lessons and tutorials at your own pace, anywhere and anytime.',
+    icon: Video,
     color: 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400'
   },
   {
-    title: 'Enterprise Security',
-    description: 'Protect sensitive data with advanced encryption and access controls.',
-    icon: Shield,
+    title: 'Study Resources',
+    description: 'Comprehensive learning materials including practice questions, case studies, and reference guides.',
+    icon: BookOpen,
     color: 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'
   },
   {
-    title: 'High Performance',
-    description: 'Process millions of data points with our optimized high-performance architecture.',
-    icon: Zap,
+    title: 'Live Webinars',
+    description: 'Regular webinars covering latest trends in data analytics and cloud technologies.',
+    icon: Webinar,
     color: 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400'
   }
 ];
@@ -84,7 +81,7 @@ const FeaturesSection = () => {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold mb-4"
           >
-            Powerful Features for <span className="text-hawkeye-purple">Modern</span> Analytics
+            Comprehensive <span className="text-hawkeye-purple">Learning</span> Experience
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -93,7 +90,7 @@ const FeaturesSection = () => {
             viewport={{ once: true }}
             className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
           >
-            Our platform offers everything you need to transform your data into strategic business decisions.
+            Everything you need to master data analytics and cloud technologies, from beginner to expert level.
           </motion.p>
         </div>
 
@@ -103,7 +100,6 @@ const FeaturesSection = () => {
           ))}
         </div>
 
-        {/* Stats Section */}
         <motion.div 
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -112,20 +108,20 @@ const FeaturesSection = () => {
           className="mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           <div className="bg-gradient-to-br from-hawkeye-purple/10 to-hawkeye-gold/10 rounded-xl p-8 text-center">
-            <h3 className="text-4xl font-bold text-hawkeye-purple">98%</h3>
-            <p className="text-gray-600 dark:text-gray-300 mt-2">Customer Satisfaction</p>
-          </div>
-          <div className="bg-gradient-to-br from-hawkeye-purple/10 to-hawkeye-gold/10 rounded-xl p-8 text-center">
-            <h3 className="text-4xl font-bold text-hawkeye-purple">500+</h3>
-            <p className="text-gray-600 dark:text-gray-300 mt-2">Enterprise Clients</p>
-          </div>
-          <div className="bg-gradient-to-br from-hawkeye-purple/10 to-hawkeye-gold/10 rounded-xl p-8 text-center">
-            <h3 className="text-4xl font-bold text-hawkeye-purple">2B+</h3>
-            <p className="text-gray-600 dark:text-gray-300 mt-2">Data Points Analyzed</p>
-          </div>
-          <div className="bg-gradient-to-br from-hawkeye-purple/10 to-hawkeye-gold/10 rounded-xl p-8 text-center">
             <h3 className="text-4xl font-bold text-hawkeye-purple">24/7</h3>
-            <p className="text-gray-600 dark:text-gray-300 mt-2">Expert Support</p>
+            <p className="text-gray-600 dark:text-gray-300 mt-2">Learning Support</p>
+          </div>
+          <div className="bg-gradient-to-br from-hawkeye-purple/10 to-hawkeye-gold/10 rounded-xl p-8 text-center">
+            <h3 className="text-4xl font-bold text-hawkeye-purple">50+</h3>
+            <p className="text-gray-600 dark:text-gray-300 mt-2">Courses</p>
+          </div>
+          <div className="bg-gradient-to-br from-hawkeye-purple/10 to-hawkeye-gold/10 rounded-xl p-8 text-center">
+            <h3 className="text-4xl font-bold text-hawkeye-purple">95%</h3>
+            <p className="text-gray-600 dark:text-gray-300 mt-2">Pass Rate</p>
+          </div>
+          <div className="bg-gradient-to-br from-hawkeye-purple/10 to-hawkeye-gold/10 rounded-xl p-8 text-center">
+            <h3 className="text-4xl font-bold text-hawkeye-purple">1000+</h3>
+            <p className="text-gray-600 dark:text-gray-300 mt-2">Alumni</p>
           </div>
         </motion.div>
       </div>

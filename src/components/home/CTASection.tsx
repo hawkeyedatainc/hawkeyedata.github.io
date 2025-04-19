@@ -13,37 +13,37 @@ const CTASection = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to transform your data experience?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to start your learning journey?</h2>
           <p className="text-xl text-white/80 mb-8">
-            Join innovative companies using HawkEye Data to unlock the true potential of their information.
+            Join thousands of successful professionals who have advanced their careers through our certification programs.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" className="bg-hawkeye-gold hover:bg-hawkeye-gold/80 text-hawkeye-purple font-medium">
-              Schedule a Demo
+              Start Learning Today
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-              Contact Sales
+              Browse Courses
             </Button>
           </div>
           
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-hawkeye-gold">24/7</div>
-              <p className="text-white/80 text-sm">Support Access</p>
+              <p className="text-white/80 text-sm">Learning Support</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-hawkeye-gold">99.9%</div>
-              <p className="text-white/80 text-sm">Uptime Guarantee</p>
+              <div className="text-3xl font-bold text-hawkeye-gold">100%</div>
+              <p className="text-white/80 text-sm">Online Access</p>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-hawkeye-gold">14-day</div>
               <p className="text-white/80 text-sm">Free Trial</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-hawkeye-gold">Enterprise</div>
-              <p className="text-white/80 text-sm">Grade Security</p>
+              <div className="text-3xl font-bold text-hawkeye-gold">Monthly</div>
+              <p className="text-white/80 text-sm">Live Sessions</p>
             </div>
           </div>
         </div>
