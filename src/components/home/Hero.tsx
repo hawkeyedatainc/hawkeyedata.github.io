@@ -44,25 +44,25 @@ const Hero = () => {
           <div className="space-y-8">
             <div>
               <p className="text-hawkeye-purple dark:text-hawkeye-gold font-medium mb-3 animate-fade-in">
-                Advanced Data Analytics Solutions
+                Expert Data Analytics & Cloud Training
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in" style={{ animationDelay: '200ms' }}>
-                Transform Your <span className="text-hawkeye-purple">Data</span> into 
-                <span className="text-hawkeye-gold"> Actionable Insights</span>
+                Master <span className="text-hawkeye-purple">Data</span> & 
+                <span className="text-hawkeye-gold"> Cloud</span> Certifications
               </h1>
             </div>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 animate-fade-in" style={{ animationDelay: '400ms' }}>
-              HawkEye Data provides cutting-edge visualization and analytics tools to help your business make data-driven decisions with confidence and precision.
+              Accelerate your career with our specialized training programs in data analytics and cloud technologies. Get certified, gain practical skills, and transform your career path.
             </p>
 
             <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: '600ms' }}>
               <Button size="lg" className="bg-hawkeye-purple hover:bg-hawkeye-darkpurple text-white">
-                Get Started
+                Explore Courses
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" className="border-hawkeye-purple text-hawkeye-purple hover:bg-hawkeye-purple/10">
-                View Solutions
+                View Certifications
               </Button>
             </div>
 
@@ -77,7 +77,7 @@ const Hero = () => {
                 ))}
               </div>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                <span className="font-medium text-gray-900 dark:text-white">500+</span> companies trust us
+                <span className="font-medium text-gray-900 dark:text-white">1000+</span> certified professionals
               </p>
             </div>
           </div>
