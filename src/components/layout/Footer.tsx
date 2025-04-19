@@ -1,15 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Facebook, 
-  Twitter, 
-  Linkedin, 
-  Github,
-  ChevronRight
-} from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
@@ -17,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100 dark:bg-gray-900 pt-16 pb-6">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
@@ -29,29 +20,15 @@ const Footer = () => {
               <h3 className="font-bold text-xl">HawkEye Data</h3>
             </div>
             <p className="text-gray-600 dark:text-gray-300">
-              Transforming complex data into actionable insights with innovative visualization solutions.
+              Empowering careers through expert-led data analytics and cloud certification training.
             </p>
-            <div className="flex space-x-3">
-              <a href="#" className="text-gray-600 hover:text-hawkeye-purple dark:text-gray-300 dark:hover:text-hawkeye-gold transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-600 hover:text-hawkeye-purple dark:text-gray-300 dark:hover:text-hawkeye-gold transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-600 hover:text-hawkeye-purple dark:text-gray-300 dark:hover:text-hawkeye-gold transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-gray-600 hover:text-hawkeye-purple dark:text-gray-300 dark:hover:text-hawkeye-gold transition-colors">
-                <Github size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {['Home', 'About Us', 'Services', 'Case Studies', 'Contact'].map((link) => (
+              {['Home', 'About Us', 'Services', 'Contact'].map((link) => (
                 <li key={link}>
                   <Link 
                     to={`/${link === 'Home' ? '' : link.toLowerCase().replace(/\s+/g, '-')}`}
@@ -65,30 +42,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
-          <div>
-            <h4 className="font-semibold text-lg mb-4">Contact Info</h4>
-            <div className="space-y-3">
-              <div className="flex items-start">
-                <MapPin size={20} className="mr-2 text-hawkeye-purple dark:text-hawkeye-gold shrink-0" />
-                <span className="text-gray-600 dark:text-gray-300">123 Data Street, Analytics City, 10001</span>
-              </div>
-              <div className="flex items-center">
-                <Phone size={20} className="mr-2 text-hawkeye-purple dark:text-hawkeye-gold" />
-                <span className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center">
-                <Mail size={20} className="mr-2 text-hawkeye-purple dark:text-hawkeye-gold" />
-                <span className="text-gray-600 dark:text-gray-300">info@hawkeyedata.com</span>
-              </div>
-            </div>
-          </div>
-
           {/* Newsletter */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Subscribe to Newsletter</h4>
             <p className="text-gray-600 dark:text-gray-300 mb-3">
-              Stay updated with our latest insights and news.
+              Stay updated with our latest courses and training programs.
             </p>
             <div className="space-y-2">
               <Input 
