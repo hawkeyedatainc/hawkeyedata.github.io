@@ -13,10 +13,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 270 57% 39%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 45 100% 62%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
@@ -97,5 +97,46 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+  
+  /* Custom animations */
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }
+  
+  .animate-spin-slow {
+    animation: spin 15s linear infinite;
+  }
+  
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-hawkeye-purple to-hawkeye-gold bg-clip-text text-transparent;
+  }
+  
+  /* Glassmorphism */
+  .glass {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-lg dark:bg-gray-900/70 dark:border-gray-800/50;
   }
 }
