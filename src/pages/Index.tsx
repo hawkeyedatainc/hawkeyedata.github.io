@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -89,10 +88,10 @@ const Index = () => {
                 viewport={{ once: true }}
               >
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                  How <span className="text-hawkeye-purple">HawkEye Data</span> Works
+                  Your Learning <span className="text-hawkeye-purple">Journey</span> With Us
                 </h2>
                 <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                  Our streamlined process transforms your raw data into actionable insights in four simple steps.
+                  Follow our proven path to certification success and career growth.
                 </p>
               </motion.div>
             </div>
@@ -101,23 +100,23 @@ const Index = () => {
               {[
                 {
                   number: '01',
-                  title: 'Connect',
-                  description: 'Integrate your data sources with our secure API connectors'
+                  title: 'Enroll',
+                  description: 'Choose your certification path and join our expert-led program'
                 },
                 {
                   number: '02',
-                  title: 'Analyze',
-                  description: 'Our AI-powered engine identifies patterns and correlations'
+                  title: 'Learn',
+                  description: 'Access structured courses and hands-on practice labs'
                 },
                 {
                   number: '03',
-                  title: 'Visualize',
-                  description: 'Create custom dashboards with interactive visualizations'
+                  title: 'Practice',
+                  description: 'Work on real-world projects and mock certification exams'
                 },
                 {
                   number: '04',
-                  title: 'Act',
-                  description: 'Receive actionable insights and implement data-driven decisions'
+                  title: 'Certify',
+                  description: 'Pass your certification exam with confidence and advance your career'
                 }
               ].map((step, index) => (
                 <motion.div

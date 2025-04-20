@@ -13,33 +13,33 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    content: "HawkEye Data transformed how we understand customer trends. The interactive dashboards made complex data accessible to everyone on our team.",
+    content: "The certification prep program was exactly what I needed. The practice labs and mock exams helped me pass AWS Solutions Architect certification on my first try!",
     author: "Sarah Johnson",
-    title: "CTO, TechForward",
+    title: "AWS Certified Solutions Architect",
     avatar: "SJ"
   },
   {
-    content: "The predictive analytics feature gave us a competitive edge in the market. We were able to anticipate changes weeks before they happened.",
+    content: "The instructors are incredibly knowledgeable and supportive. The hands-on projects gave me real-world experience that I now use daily in my new role.",
     author: "Michael Chang",
-    title: "Director of Operations, GlobalTech",
+    title: "Data Analytics Professional",
     avatar: "MC"
   },
   {
-    content: "Implementation was seamless and the ROI was immediate. Our data team is more productive and our executives have better insights for strategic decisions.",
+    content: "Completing the Azure certification track opened new career opportunities. The structured curriculum and study materials were comprehensive and well-organized.",
     author: "Elena Rodriguez",
-    title: "Data Analytics Lead, InnovateCorp",
+    title: "Azure Cloud Engineer",
     avatar: "ER"
   },
   {
-    content: "The visualization tools are incredibly intuitive. We've been able to communicate data stories to stakeholders in ways that drive real action.",
+    content: "The live workshop sessions were invaluable. Being able to interact with instructors and other students made complex concepts much easier to grasp.",
     author: "Daniel Wilson",
-    title: "CEO, Startup Innovations",
+    title: "Cloud Security Specialist",
     avatar: "DW"
   },
   {
-    content: "Customer support has been exceptional. Any time we've had questions, the team responds quickly with expert solutions.",
+    content: "I went from a complete beginner to a certified professional in 6 months. The self-paced learning format fit perfectly with my busy schedule.",
     author: "Rachel Kim",
-    title: "VP of Marketing, GrowthPartners",
+    title: "Data Engineering Graduate",
     avatar: "RK"
   }
 ];
