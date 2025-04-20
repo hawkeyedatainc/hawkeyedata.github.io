@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -28,14 +27,14 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {['Home', 'About Us', 'Contact'].map((link) => (
+              {['Home', 'About', 'Contact'].map((link) => (
                 <li key={link}>
                   <Link 
-                    to={`/${link === 'Home' ? '' : link.toLowerCase().replace(/\s+/g, '-')}`}
+                    to={`/${link === 'Home' ? '' : link.toLowerCase()}`}
                     className="flex items-center text-gray-600 hover:text-hawkeye-purple dark:text-gray-300 dark:hover:text-hawkeye-gold transition-colors"
                   >
                     <ChevronRight size={16} className="mr-2" />
-                    {link}
+                    {link === 'About' ? 'About Us' : link}
                   </Link>
                 </li>
               ))}
