@@ -32,24 +32,24 @@ const Index = () => {
                   viewport={{ once: true }}
                 >
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Advanced Analytics for <span className="text-hawkeye-purple">Data-Driven</span> Organizations
+                    Comprehensive <span className="text-hawkeye-purple">Training</span> Programs
                   </h2>
                   <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                    HawkEye Data helps organizations harness the power of their data through intuitive visualization tools, 
-                    predictive analytics, and real-time monitoring solutions.
+                    Join our expert-led courses designed to help you master data analytics and cloud technologies. 
+                    From beginner fundamentals to advanced certification preparation, we provide the skills you need to succeed.
                   </p>
                   <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                    Our platform integrates seamlessly with your existing infrastructure, providing immediate insights 
-                    without disrupting your workflows.
+                    Our curriculum combines theoretical knowledge with hands-on practice, ensuring you're ready 
+                    for real-world challenges and certification exams.
                   </p>
                   <div className="grid grid-cols-2 gap-4 mt-8">
                     <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-                      <h3 className="font-bold text-2xl text-hawkeye-purple">500+</h3>
-                      <p className="text-gray-600 dark:text-gray-400">Enterprise Clients</p>
+                      <h3 className="font-bold text-2xl text-hawkeye-purple">50+</h3>
+                      <p className="text-gray-600 dark:text-gray-400">Active Courses</p>
                     </div>
                     <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-                      <h3 className="font-bold text-2xl text-hawkeye-purple">98%</h3>
-                      <p className="text-gray-600 dark:text-gray-400">Customer Satisfaction</p>
+                      <h3 className="font-bold text-2xl text-hawkeye-purple">95%</h3>
+                      <p className="text-gray-600 dark:text-gray-400">Certification Rate</p>
                     </div>
                   </div>
                 </motion.div>
@@ -65,8 +65,8 @@ const Index = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-hawkeye-purple/80 to-hawkeye-darkpurple p-1 rounded-xl">
                   <div className="w-full h-full bg-white dark:bg-gray-900 rounded-lg overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80" 
-                      alt="Data Analytics Dashboard" 
+                      src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80" 
+                      alt="Online Learning" 
                       className="w-full h-full object-cover"
                     />
                   </div>
