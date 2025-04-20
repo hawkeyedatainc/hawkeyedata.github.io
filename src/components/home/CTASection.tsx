@@ -1,10 +1,7 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-
 const CTASection = () => {
-  return (
-    <section className="py-20 relative overflow-hidden">
+  return <section className="py-20 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-hawkeye-purple to-hawkeye-darkpurple opacity-90 z-0"></div>
       
@@ -23,7 +20,7 @@ const CTASection = () => {
               Start Learning Today
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button size="lg" variant="outline" className="border-white bg-hawkeye-gold text-hawkeye-purple">
               Browse Courses
             </Button>
           </div>
@@ -48,8 +45,6 @@ const CTASection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CTASection;
