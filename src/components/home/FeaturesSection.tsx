@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { 
   GraduationCap, 
@@ -5,7 +6,7 @@ import {
   Video, 
   Presentation,
   Book,
-  Webinar
+  Monitor // Replacing 'Webinar' with 'Monitor' which is a valid icon
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
@@ -44,7 +45,7 @@ const features = [
   {
     title: 'Live Webinars',
     description: 'Regular webinars covering latest trends in data analytics and cloud technologies.',
-    icon: Webinar,
+    icon: Monitor, // Using Monitor icon instead of Webinar
     color: 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400'
   }
 ];
